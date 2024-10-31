@@ -1,0 +1,36 @@
+/* FOOTER CLASS */
+.flex-all-center{  
+    height: 18vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+
+}
+
+/* SEARCH BAR BUTTON IMG */
+.btn img{
+    height: 15px;
+}
+/* CART IMG */
+.cart img{
+    height: 40px;
+}
+
+/* SEARCH BAR BUTTON */
+.btn{
+    background: white url("/image/magnifier.png"); 
+    position: relative;
+    right: 19px;
+    top: 1.09px;
+    /* bottom: 1px; */
+    border-radius: 7px;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+/* SEARCH BAR PLACEHOLDER + SEARCH BAR BUTTON */
+.searchbar1 :hover + .btn {
+    transform: rotatex(360deg);
+
+}
